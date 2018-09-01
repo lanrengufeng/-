@@ -44,6 +44,7 @@ public class PrintTreeNode {
 		posOrder(root.right);
 		System.out.println(root.val);
 	}
+
 	
 	/**
 	 * 非递归版先序遍历
