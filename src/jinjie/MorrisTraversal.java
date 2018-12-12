@@ -103,7 +103,6 @@ public class MorrisTraversal {
                     mostRight.right = null;
                     printEdge(root.left);
                 }
-                mostRight.right = null;
             }
             root = root.right;
         }
